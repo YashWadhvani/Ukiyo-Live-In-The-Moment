@@ -1,0 +1,95 @@
+html {
+    background: #0C3770;
+    padding: 1em;
+}
+
+nav {
+    background: #0C3770;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+
+.breadText {
+    text-decoration: none;
+    color: #7C4F4D;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: #7C4F4D !important;
+    font-family: monospace;
+    font-size: 2em !important;
+    font-weight: bolder;
+}
+
+a.navbar-brand:hover {
+    color: #7C4F4D;
+}
+
+nav.nav-link:hover {
+    color: #7C4F4D;
+}
+
+.carousel-img {
+    width: 300px;
+    height: 600px;
+}
+
+.carouselHeading {
+    text-align: center;
+    color: #7C4F4D;
+    background-color: #0C3770;
+    font: 900;
+    text-shadow: #7C4F4D4e 5px 0 8px;
+    font-family: 'Satisfy', cursive;
+    /* font-family: 'Parisienne', cursive; */
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: 'Amatic SC', cursive; */
+    font-size: 5rem;
+    padding: 0.5rem;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    justify-content: space-around;
+    background-color: #0C3770;
+}
+
+.card {
+    background-color: gray;
+    /* background-color: #7C4F4D; */
+}
+
+@media (max-width: 576px) {
+    .Logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Name {
+        height: 60px;
+        width: 180px;
+    }
+
+    .carouselHeading {
+        font-size: 2.5rem;
+    }
+
+    .carousel-img {
+        height: 240px;
+        width: 480px;
+    }
+
+    .nav-link {
+        font-size: 1rem !important;
+    }
+}
